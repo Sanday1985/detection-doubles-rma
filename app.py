@@ -14,8 +14,8 @@ st.sidebar.header("🔑 Connexion DHIS2")
 username = st.sidebar.text_input("Nom d'utilisateur", type="default")
 password = st.sidebar.text_input("Mot de passe", type="password")
 
-# === Étape 2 : Importer le fichier Excel fosa_services.xlsx ===
-st.header("📂 Importer le fichier des relations FOSA - Services")
+# === Étape 2 : Importer le fichier Excel des formations sanitaires ===
+st.header("📂 Importer le fichier contenant des formations sanitaires")
 uploaded_file = st.file_uploader("Choisissez le fichier fosa_services.xlsx", type=["xlsx"])
 
 if uploaded_file and username and password:
